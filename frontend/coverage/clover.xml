@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1789347801596" clover="3.2.0">
+  <project timestamp="1789347801596" name="All files">
+    <metrics statements="66" coveredstatements="54" conditionals="36" coveredconditionals="24" methods="20" coveredmethods="15" elements="122" coveredelements="93" complexity="0" loc="66" ncloc="66" packages="2" files="3" classes="3"/>
+    <package name="api">
+      <metrics statements="27" coveredstatements="17" conditionals="13" coveredconditionals="5" methods="12" coveredmethods="7"/>
+      <file name="calculatorApi.ts" path="C:\Users\Sharon\Documents\GitHub\sezzle\frontend\src\api\calculatorApi.ts">
+        <metrics statements="27" coveredstatements="17" conditionals="13" coveredconditionals="5" methods="12" coveredmethods="7"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="28" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="6" type="stmt"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="5" type="stmt"/>
+        <line num="44" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="68" count="1" type="cond" truecount="1" falsecount="6"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="88" count="23" type="stmt"/>
+      </file>
+    </package>
+    <package name="components">
+      <metrics statements="39" coveredstatements="37" conditionals="23" coveredconditionals="19" methods="8" coveredmethods="8"/>
+      <file name="Calculator.css" path="C:\Users\Sharon\Documents\GitHub\sezzle\frontend\src\components\Calculator.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="Calculator.tsx" path="C:\Users\Sharon\Documents\GitHub\sezzle\frontend\src\components\Calculator.tsx">
+        <metrics statements="39" coveredstatements="37" conditionals="23" coveredconditionals="19" methods="8" coveredmethods="8"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="23" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="24" count="5" type="stmt"/>
+        <line num="25" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="20" type="stmt"/>
+        <line num="30" count="20" type="stmt"/>
+        <line num="31" count="20" type="stmt"/>
+        <line num="32" count="20" type="stmt"/>
+        <line num="33" count="20" type="stmt"/>
+        <line num="34" count="20" type="stmt"/>
+        <line num="36" count="20" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="64" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="70" count="40" type="stmt"/>
+        <line num="72" count="20" type="stmt"/>
+        <line num="82" count="2" type="stmt"/>
+        <line num="83" count="2" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="88" count="140" type="stmt"/>
+        <line num="102" count="5" type="stmt"/>
+        <line num="119" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
