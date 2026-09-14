@@ -10,21 +10,23 @@ Full-stack calculator: React + TypeScript frontend, Go backend REST API.
 - **Deployment:** Docker + Docker Compose (optional)
 
 ## Project structure
+
+```
 sezzle-calculator/
 ├── backend/
-│ ├── calculator/ # pure arithmetic logic (unit tested, no HTTP)
-│ ├── handlers/ # HTTP layer: JSON parsing, validation, routing targets
-│ ├── main.go # router + CORS middleware + server bootstrap
-│ └── Dockerfile
+│   ├── calculator/     # pure arithmetic logic (unit tested, no HTTP)
+│   ├── handlers/       # HTTP layer: JSON parsing, validation, routing targets
+│   ├── main.go          # router + CORS middleware + server bootstrap
+│   └── Dockerfile
 ├── frontend/
-│ ├── src/
-│ │ ├── api/ # calculatorApi.ts — the only place that talks to the backend
-│ │ ├── components/ # Calculator.tsx + Calculator.css
-│ │ └── App.tsx
-│ └── Dockerfile
+│   ├── src/
+│   │   ├── api/          # calculatorApi.ts — the only place that talks to the backend
+│   │   ├── components/   # Calculator.tsx + Calculator.css
+│   │   └── App.tsx
+│   └── Dockerfile
 ├── docker-compose.yml
-└── PROMPTS.md # AI prompts used while building this
-
+└── PROMPTS.md            # AI prompts used while building this
+```
 ## Running locally (without Docker)
 
 ### Backend
